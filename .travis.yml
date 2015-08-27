@@ -2,7 +2,7 @@ language: bash
 script: bash run.sh
 before_install:
 	- openssl aes-256-cbc -K $encrypted_a64e8c458a8f_key -iv $encrypted_a64e8c458a8f_iv -in file.txt.enc -out file.txt -d
-	-packer/install_packer.sh
+	- packer/install_packer.sh
 
 
 script:
