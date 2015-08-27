@@ -2,7 +2,6 @@
 
 set -xe
 
-
 chmod 600 filea.txt
 
 export creator=$(git --no-pager show -s --format='%ae' ${TRAVIS_COMMIT})
