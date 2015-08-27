@@ -1,5 +1,4 @@
 language: bash
-
 script:
 - mv bank.py files/opt/
 - chmod 600 filea.txt
