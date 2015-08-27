@@ -1,2 +1,2 @@
 language: bash
-script: echo hola
+script: echo $test
